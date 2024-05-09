@@ -1,0 +1,53 @@
+{
+  "uuid": "919a1dde-7ebb-4347-a9d1-4235c6b2c717",
+  "historyId": "c9f27528031661acc0e37dbe5a10f579",
+  "testCaseId": "229f8671a24f41e7049d6a992276a227",
+  "fullName": "DotNetPlaywrightTest01:Tests.DemoPlaywright1.SampleTest1()",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "ParallelWorker#1"
+    },
+    {
+      "name": "host",
+      "value": "DESKTOP-BLK2H80"
+    },
+    {
+      "name": "language",
+      "value": "C#"
+    },
+    {
+      "name": "framework",
+      "value": "NUnit 3"
+    },
+    {
+      "name": "package",
+      "value": "Tests"
+    },
+    {
+      "name": "testMethod",
+      "value": "SampleTest1"
+    },
+    {
+      "name": "testClass",
+      "value": "DemoPlaywright1"
+    }
+  ],
+  "links": [],
+  "name": "SampleTest1",
+  "status": "broken",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "System.TimeoutException : Timeout 30000ms exceeded.\nCall log:\n  - navigating to \"https://www.google.com/\", waiting until \"load\"",
+    "trace": "   at Microsoft.Playwright.Transport.Connection.InnerSendMessageToServerAsync[T](ChannelOwner object, String method, Dictionary`2 dictionary, Boolean keepNulls) in /_/src/Playwright/Transport/Connection.cs:line 206\r\n   at Microsoft.Playwright.Transport.Connection.WrapApiCallAsync[T](Func`1 action, Boolean isInternal) in /_/src/Playwright/Transport/Connection.cs:line 526\r\n   at Microsoft.Playwright.Core.Frame.GotoAsync(String url, FrameGotoOptions options) in /_/src/Playwright/Core/Frame.cs:line 791\r\n   at Tests.DemoPlaywright1.SampleTest1() in E:\\JenkinsGitDemo\\dotnet\\DotNetPlaywrightTest01\\DotNetPlaywrightTest01\\Tests\\DemoPlaywright1.cs:line 64\r\n   at NUnit.Framework.Internal.TaskAwaitAdapter.GenericAdapter`1.BlockUntilCompleted()\r\n   at NUnit.Framework.Internal.MessagePumpStrategy.NoMessagePumpStrategy.WaitForCompletion(AwaitAdapter awaiter)\r\n   at NUnit.Framework.Internal.AsyncToSyncAdapter.Await[TResult](Func`1 invoke)\r\n   at NUnit.Framework.Internal.AsyncToSyncAdapter.Await(Func`1 invoke)\r\n   at NUnit.Framework.Internal.Commands.TestMethodCommand.RunTestMethod(TestExecutionContext context)\r\n   at NUnit.Framework.Internal.Commands.TestMethodCommand.Execute(TestExecutionContext context)\r\n   at NUnit.Framework.Internal.Commands.BeforeAndAfterTestCommand.<>c__DisplayClass1_0.<Execute>b__0()\r\n   at NUnit.Framework.Internal.Commands.DelegatingTestCommand.RunTestMethodInThreadAbortSafeZone(TestExecutionContext context, Action action)"
+  },
+  "stage": "finished",
+  "description": "Testing pressing of keyboard key\n",
+  "steps": [],
+  "attachments": [],
+  "parameters": [],
+  "start": 1715291190946,
+  "stop": 1715291225441
+}

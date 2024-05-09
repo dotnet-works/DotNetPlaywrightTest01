@@ -1,0 +1,11 @@
+About 1,40,000 results (0.26 seconds) 
+Number: 1
+Number: 40
+Number: 0
+Number: 0
+Number: 26
+1,40
+40
+140000
+0.26
+

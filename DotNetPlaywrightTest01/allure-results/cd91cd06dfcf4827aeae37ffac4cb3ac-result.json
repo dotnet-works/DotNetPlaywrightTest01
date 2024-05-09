@@ -1,0 +1,46 @@
+{
+  "uuid": "cf6c637b-1cb0-4f2b-a09e-edfcc7333a9f",
+  "historyId": "5fa4dc64eb8b45aa48e9f053e9435dc8",
+  "testCaseId": "aa51f532c3712cf21405347fa10439ba",
+  "fullName": "DotNetPlaywrightTest01:Tests.DemoPlaywright2.SampleTest4()",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "DESKTOP-BLK2H80"
+    },
+    {
+      "name": "language",
+      "value": "C#"
+    },
+    {
+      "name": "framework",
+      "value": "NUnit 3"
+    },
+    {
+      "name": "package",
+      "value": "Tests"
+    },
+    {
+      "name": "testMethod",
+      "value": "SampleTest4"
+    },
+    {
+      "name": "testClass",
+      "value": "DemoPlaywright2"
+    }
+  ],
+  "links": [],
+  "name": "SampleTest4",
+  "status": "passed",
+  "stage": "finished",
+  "description": "Handle expected wait conditions\n",
+  "steps": [],
+  "attachments": [],
+  "parameters": [],
+  "start": 1715280388164,
+  "stop": 1715280390620
+}

@@ -1,0 +1,62 @@
+{
+  "uuid": "9c257158-c823-448a-9d1d-39962aab0d85",
+  "historyId": "fe9572a7973b6e8fe68e5d3c7e2b868d",
+  "testCaseId": "212ca679820014c7871a5a340cef955b",
+  "fullName": "DotNetPlaywrightTest01:Tests.DemoPlaywright2.SampleTest1()",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "DESKTOP-BLK2H80"
+    },
+    {
+      "name": "language",
+      "value": "C#"
+    },
+    {
+      "name": "framework",
+      "value": "NUnit 3"
+    },
+    {
+      "name": "package",
+      "value": "Tests"
+    },
+    {
+      "name": "testMethod",
+      "value": "SampleTest1"
+    },
+    {
+      "name": "testClass",
+      "value": "DemoPlaywright2"
+    }
+  ],
+  "links": [],
+  "name": "SampleTest1",
+  "status": "passed",
+  "stage": "finished",
+  "description": "Testing pressing of keyboard key\n",
+  "steps": [],
+  "attachments": [
+    {
+      "name": "data.txt",
+      "source": "a034073a-f678-4637-8f76-f6183a86bada-attachment",
+      "type": "text/plain"
+    },
+    {
+      "name": "AttachByteArray.png",
+      "source": "a16f2771-e462-4220-8480-09da46159185-attachment",
+      "type": "image/png"
+    },
+    {
+      "name": "Console Output",
+      "source": "b0597d6d-c391-448e-9117-171bb88fa813-attachment.txt",
+      "type": "text/plain"
+    }
+  ],
+  "parameters": [],
+  "start": 1715289495940,
+  "stop": 1715289511691
+}

@@ -1,0 +1,46 @@
+{
+  "uuid": "ece34558-41ae-4635-a9c0-f31106c6e01e",
+  "historyId": "a7e434d0cd725d4e32012308ee1ed790",
+  "testCaseId": "d7c0de1f387140b83b92f3db5c3436bc",
+  "fullName": "DotNetPlaywrightTest01:Tests.DemoPlaywright2.SampleTest2()",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "DESKTOP-BLK2H80"
+    },
+    {
+      "name": "language",
+      "value": "C#"
+    },
+    {
+      "name": "framework",
+      "value": "NUnit 3"
+    },
+    {
+      "name": "package",
+      "value": "Tests"
+    },
+    {
+      "name": "testMethod",
+      "value": "SampleTest2"
+    },
+    {
+      "name": "testClass",
+      "value": "DemoPlaywright2"
+    }
+  ],
+  "links": [],
+  "name": "SampleTest2",
+  "status": "passed",
+  "stage": "finished",
+  "description": "Testing iterate through list items \n",
+  "steps": [],
+  "attachments": [],
+  "parameters": [],
+  "start": 1715280372437,
+  "stop": 1715280385456
+}

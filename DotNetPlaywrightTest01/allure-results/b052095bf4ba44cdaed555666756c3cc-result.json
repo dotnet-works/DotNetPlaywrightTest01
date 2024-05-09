@@ -1,0 +1,53 @@
+{
+  "uuid": "cfd2468c-cdc0-4330-a269-207fd75769a8",
+  "historyId": "5d920287732be57d15d2115a7ec3136e",
+  "testCaseId": "f81631a23c5daed4426356286538be35",
+  "fullName": "DotNetPlaywrightTest01:Tests.DemoPlaywright1.SampleTest4()",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "ParallelWorker#3"
+    },
+    {
+      "name": "host",
+      "value": "DESKTOP-BLK2H80"
+    },
+    {
+      "name": "language",
+      "value": "C#"
+    },
+    {
+      "name": "framework",
+      "value": "NUnit 3"
+    },
+    {
+      "name": "package",
+      "value": "Tests"
+    },
+    {
+      "name": "testMethod",
+      "value": "SampleTest4"
+    },
+    {
+      "name": "testClass",
+      "value": "DemoPlaywright1"
+    }
+  ],
+  "links": [],
+  "name": "SampleTest4",
+  "status": "broken",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "TearDown : Microsoft.Playwright.TargetClosedException : Target page, context or browser has been closed\nCall log:\n  - taking page screenshot\n  - waiting for fonts to load...",
+    "trace": "--TearDown\r\n   at Microsoft.Playwright.Transport.Connection.InnerSendMessageToServerAsync[T](ChannelOwner object, String method, Dictionary`2 dictionary, Boolean keepNulls) in /_/src/Playwright/Transport/Connection.cs:line 206\r\n   at Microsoft.Playwright.Transport.Connection.WrapApiCallAsync[T](Func`1 action, Boolean isInternal) in /_/src/Playwright/Transport/Connection.cs:line 526\r\n   at Microsoft.Playwright.Core.Page.ScreenshotAsync(PageScreenshotOptions options) in /_/src/Playwright/Core/Page.cs:line 674\r\n   at Tests.DemoPlaywright1.Cleanup() in E:\\JenkinsGitDemo\\dotnet\\DotNetPlaywrightTest01\\DotNetPlaywrightTest01\\Tests\\DemoPlaywright1.cs:line 46\r\n   at NUnit.Framework.Internal.TaskAwaitAdapter.GenericAdapter`1.BlockUntilCompleted()\r\n   at NUnit.Framework.Internal.MessagePumpStrategy.NoMessagePumpStrategy.WaitForCompletion(AwaitAdapter awaiter)\r\n   at NUnit.Framework.Internal.AsyncToSyncAdapter.Await[TResult](Func`1 invoke)\r\n   at NUnit.Framework.Internal.AsyncToSyncAdapter.Await(Func`1 invoke)\r\n   at NUnit.Framework.Internal.Commands.SetUpTearDownItem.RunSetUpOrTearDownMethod(TestExecutionContext context, IMethodInfo method)\r\n   at NUnit.Framework.Internal.Commands.SetUpTearDownItem.RunTearDown(TestExecutionContext context)"
+  },
+  "stage": "finished",
+  "description": "Handle expected wait conditions\n",
+  "steps": [],
+  "attachments": [],
+  "parameters": [],
+  "start": 1715291006795,
+  "stop": 1715291017155
+}

@@ -1,0 +1,10 @@
+About 1,13,000 results (0.20 seconds) 
+Number: 1
+Number: 13
+Number: 0
+Number: 0
+Number: 20
+1,13
+13
+113000
+
